@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+
+.subtitulosIndex{
+    color: black;
+    font-size: 3rem;
+    margin: auto;
+    font-family: 'Oswald', sans-serif; 
+    padding: 10px;
+}
+
+.titulosPrincipales{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.parrafosPrincipales{
+    color: black;
+    font-size: 2rem;
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+}
+.header{
+    background-color: #96b5a6;
+    border: 1px black;
+    
+}
+.navHeader{
+    color: black;
+    font-size: 1rem;
+}
+
+.mainIndex{
+    background-color: #fce1cb;
+    margin: 0%;
+}
+
+.fotosIndex{
+    height: 600px;
+    width: 800px;
+}
+
+.fotoHeader{
+    height: 600px;
+    width: 1000px; 
+    display: flex;
+}
+
+.menu .listaU .navHeader{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.menu .listaU .navHeader .anclas{
+    text-decoration: none;
+    color: black;
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 1,5rem;
+}
+
+.contenidoGaleria{
+    height: 500px;
+    width: 400px;
+}
+
+.footers{
+    background-color: #96b5a6;
+    font-size: 1rem;
+    display: block;
+    position: static;
+    bottom: 0%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.boxForm{
+    width: 400px;
+    background-color: #febeac;
+    padding: 30px;
+    margin: auto;
+    margin-top:20px;
+    font-size: 1rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.boxForm h2{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.controls{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.contenedorSobreRamon{
+    padding: 20px;
+    text-align: justify;
+    display: inline;
+}
+
+.contenidoSobreRamon{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    display:flex ;
+}
+
+.parrafoSobreRamon{
+    color: black;
+    font-size: 1rem;
+    font-family:'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.sectionIndex{
+    box-sizing: 3rem;
+    display: flex;
+    justify-content: center ;
+}
