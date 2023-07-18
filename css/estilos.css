@@ -133,3 +133,15 @@
     display: flex;
     justify-content: center ;
 }
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:800px){
+    .flexContainer{
+        flex-direction: column;
+    }
+
+}
