@@ -6,46 +6,64 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Tienda/Ramon</title>
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"> 
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/estilos.css">
     </head>
     <body>
-        <header class="header">
-            <!--Primer idea de logo-->
-            <a href="../index.html">  <img src="../assets/img/huella (2).png" alt="Huella de perro"></a>
-            <nav class="menu">
-              <ul class="listaU">
-                  <li class="navHeader"><a class="anclas" href="../index.html">Inicio</a></li>
-                  <li class="navHeader"><a class="anclas" href="galeria.html">Galeria</a></li>
-                  <li class="navHeader"><a class="anclas" href="sobreramon.html">Sobre Ramon</a></li>
-                  <li class="navHeader"><a class="anclas" href="#">Tienda</a></li>
-                  <li class="navHeader"><a class="anclas" href="contacto.html">Contacto</a></li>
-              </ul>
-          </nav>
+        <header class="header nav row g-0">
+            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #96b5a6;">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html"><img src="../assets/img/huella (2).png" alt="Huella de perro"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link " href="sobreramon.html">Sobre Ramon</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">Tienda</a>
+                      </li>  
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main class="mainIndex">
             <h1 class="titulosPrincipales">Tienda</h1>
             <!--Esto es una idea de tienda, pueden llegar a cambiar los productos, pero la estructura seria asi-->
+            <h2 class="subtitulosIndex">Productos para/sobre Perros salchicha!!</h2>
             <section>
-                <div><h2 class="subtitulosIndex">Productos para/sobre Perros salchicha!!</h2>
-                    <img src="../assets/img/RAMPA" alt="Rampa">
+                <div>
+                    <img class="img-fluid" src="../assets/img/RAMPA" alt="Rampa">
                     <h3 class="parrafoSobreRamon">Rampa para sillon con Grip.</h3>
                     <p class="parrafoSobreRamon">$15.350</p>
                     <a class="parrafoSobreRamon" target="_blank" href="https://articulo.mercadolibre.com.ar/MLA-1188713324-rampa-para-perros-plegable-diseno-dachshund-salchicha-_JM#position=2&search_layout=stack&type=item&tracking_id=bdd972bf-b7fd-4992-9f14-5c0eba4d4f2a">Comprar</a>
                 </div>
                 <div>
-                    <img src="../assets/img/COMIDA PERRO TIENDA" alt="Remera huella">
+                    <img class="img-fluid" src="../assets/img/COMIDA PERRO TIENDA" alt="Remera huella">
                     <h3 class="parrafoSobreRamon">Alimento Nutrition Dachshund para Perros Salchicha adulto.</h3>
                     <p class="parrafoSobreRamon">$6.690</p>
                     <a class="parrafoSobreRamon" target="_blank" href="https://www.mercadolibre.com.ar/alimento-royal-canin-breed-health-nutrition-dachshund-para-perro-adulto-de-raza-mini-y-pequena-sabor-mix-en-bolsa-de-3kg/p/MLA9474977?pdp_filters=category:MLA1077#searchVariation=MLA9474977&position=1&search_layout=stack&type=product&tracking_id=e45fe017-1113-4820-9590-63a91f9941e3"> Comprar</a>
                 </div>
                 <div>
-                    <img src="../assets/img/LIBRO TIENDA" alt="Remera huella">
+                    <img class="img-fluid" src="../assets/img/LIBRO TIENDA" alt="Remera huella">
                     <h3 class="parrafoSobreRamon">Libro "Como lidiar con un perro salchicha hiperactivo".</h3>
                     <p class="parrafoSobreRamon">$12.399</p>
                     <a class="parrafoSobreRamon" target="_blank" href="https://articulo.mercadolibre.com.ar/MLA-1135535256-libro-como-lidiar-con-un-perro-salchicha-hiperactivo-que-h-_JM#position=10&search_layout=stack&type=item&tracking_id=2e9d5564-6b8f-4020-8a8d-0790b41f108b"> Comprar</a>
                 </div>
                 <div>
-                    <img src="../assets/img/TIENDA RAMON" alt="">
+                    <img class="img-fluid" src="../assets/img/TIENDA RAMON" alt="">
                     <h3 class="parrafoSobreRamon">Mochila Transportadora Especial Para Perros Salchicha</h3>
                     <p class="parrafoSobreRamon">$12.000</p>
                     <a class="parrafoSobreRamon" target="_blank" href="https://articulo.mercadolibre.com.ar/MLA-1148304274-mochila-transportadora-especial-para-perros-salchicha-_JM#position=14&search_layout=stack&type=item&tracking_id=9cf876ad-a651-4e29-a9da-39490d998c66"> Comprar</a>
@@ -53,11 +71,24 @@
             </section>
         </main>
 
-        <footer class="footers">
-            <p>Todos los derechos reservados</p>
-            <section>
-                <a target="_blank" href="https://www.instagram.com/elsalchicha_ramon/?hl=es-la"><img class="IconosFooter" src="../assets/img/logotipo-de-instagram.png" alt="logotipo-de-instagram"></a>
-            </section>
+        <footer class="footers conteinerFooter col align-self-start">
+            <div>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/elsalchicha_ramon/?hl=es-la"><img class="img IconosFooter" src="../assets/img/logotipo-de-instagram.png" alt="logotipo-de-instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/"><img class="img IconosFooter" src="../assets/img/facebook.png" alt="logotipo-de-instagram"></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img class="img IconosFooter" src="../assets/img/youtube.png" alt="logotipo-de-instagram"></a>
+                </div>
+                <nav class="menu  nav row g-0 ">
+                     <ul class="listaU">
+                        <li class="navHeader"><a class="anclas" href="galeria.html">Galeria</a></li>
+                        <li class="navHeader"><a class="anclas" href="sobreramon.html">Sobre Ramon</a></li>
+                        <li class="navHeader"><a class="anclas" href="tienda.html">Tienda</a></li>
+                        <li class="navHeader"><a class="anclas" href="contacto.html">Contacto</a></li>
+                     </ul>
+                </nav>
+                <p>Copyright © 2023 - Desarrollado por Francisco</p>
+            </div>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
