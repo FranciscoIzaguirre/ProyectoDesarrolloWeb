@@ -71,8 +71,12 @@
 }
 
 .contenidoGaleria{
-    height: 500px;
-    width: 400px;
+    height: 400px;
+    width: 439.19px;
+}
+
+.botonesTienda{
+    background-color: #96b5a6
 }
 
 .footers{
