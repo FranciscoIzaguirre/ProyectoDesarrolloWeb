@@ -1,0 +1,26 @@
+$color-primario: #fce1cb;
+$color-secundario:#96B5A6;
+$color-negro: black;
+$color-texto: black;
+$color-blanco:white;
+
+$foto_background:linear-gradient(to right top, #96b5a6, #8cb096, #87a984, #85a270, #879a5c, #948f4f, #9f8447, #a87846, #ad6b57, #a5636a, #936178, #7b617f);
+
+$espaciado-doble: 20px;
+
+$grosor-pequeno: 300;
+$grosor-mediano: 400;
+$grosor-grande : 700;
+
+$fuente-normal: 1rem;
+$fuente-pequena:2rem;
+$fuente-grande: 3rem;
+$fuente-especial:1,5rem;
+
+$tipografia-general:  'Oswald', sans-serif; 
+$tipografia-alternativa: 'Times New Roman', Times, serif;
+
+$contenedor-flex : flex;
+$contenedor-flex-columna : column;
+$contenedor-flex-fila : row;
+$contenedor-flex-centro : center;

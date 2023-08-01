@@ -1,165 +1,158 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
-
-
-.subtitulosIndex{
-    color: black;
-    font-size: 3rem;
-    margin: auto;
-    font-family: 'Oswald', sans-serif; 
-    padding: 10px;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.titulosPrincipales{
-    color: black;
-    font-size: 3rem;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+.subtitulosIndex {
+  color: black;
+  font-size: 3rem;
+  margin: auto;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
 }
 
-.parrafosPrincipales{
-    color: black;
-    font-size: 2rem;
-    font-family:'Oswald', sans-serif;
-    font-weight: 400;
-}
-.header{
-    background-color: #96b5a6;
-    border: 1px black;
-    
-}
-.navHeader{
-    color: black;
-    font-size: 1rem;
+.titulosPrincipales {
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
 }
 
-.mainIndex{
-    background-color: #fce1cb;
-    margin: 0%;
+.parrafosPrincipales {
+  color: black;
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 
-.fotosIndex{
-    height: 600px;
-    width: 800px;
+.header {
+  background-color:linear-gradient(to right top, #96b5a6, #8cb096, #87a984, #85a270, #879a5c, #948f4f, #9f8447, #a87846, #ad6b57, #a5636a, #936178, #7b617f);;
+  border: 1px black;
 }
 
-.fotoHeader{
-    height: 600px;
-    width: 1000px; 
-    display: flex;
+.navHeader {
+  color: black;
+  font-size: 1rem;
 }
 
-.menu .listaU .navHeader{
-    list-style: none;
-    display: inline-block;
-    margin-left: 15px;
+.mainIndex {
+  background-color: #fce1cb;
+  margin: 0%;
 }
 
-.menu .listaU .navHeader .anclas{
-    text-decoration: none;
-    color: black;
-    font-family:'Oswald', sans-serif;
-    font-weight: 400;
-    font-size: 1,5rem;
+.fotosIndex {
+  height: 600px;
+  width: 800px;
 }
 
-.contenidoGaleria{
-    height: 400px;
-    width: 439.19px;
+.fotoHeader {
+  height: 600px;
+  width: 1000px;
 }
 
-.botonesTienda{
-    background-color: #96b5a6
+.menu .listaU .navHeader {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
 }
 
-.footers{
-    background-color: #96b5a6;
-    font-size: 1rem;
-    display: block;
-    position: static;
-    bottom: 0%;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    
+.menu .listaU .navHeader .anclas {
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 1, 5rem;
 }
 
-.footers .img{
-    width: 30px;
-    margin: 10px;
-    margin-top: 20px;
-    margin-bottom: 17px;
+.contenidoGaleria {
+  height: 400px;
+  width: 439.19px;
 }
 
-.boxForm{
-    width: 400px;
-    background-color: #febeac;
-    padding: 30px;
-    margin: auto;
-    margin-top:20px;
-    font-size: 1rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
+.botonesTienda {
+  background-color: #96b5a6;
 }
 
-.boxForm h2{
-    margin-bottom: 20px;
-    font-size: 2rem;
+.footers {
+  background-color: #96b5a6;
+  font-size: 1rem;
+  display: block;
+  position: static;
+  bottom: 0%;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
 }
 
-.controls{
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-
+.footers .img {
+  width: 30px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 17px;
 }
 
-.contenedorSobreRamon{
-    padding: 20px;
-    text-align: justify;
-    display: inline;
+.boxForm {
+  width: 400px;
+  background-color: #febeac;
+  padding: 30px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
 
-.contenidoSobreRamon{
-    width: 400px;
-    height: 400px;
-    padding: 20px;
-    display:flex ;
+.boxForm h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
-.parrafoSobreRamon{
-    color: black;
-    font-size: 1rem;
-    font-family:'Oswald', sans-serif;
-    font-weight: 400;
+.controls {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
-.sectionIndex{
-    box-sizing: 3rem;
-    display: flex;
-    justify-content: center ;
+.contenedorSobreRamon {
+  padding: 20px;
+  text-align: justify;
+  display: inline;
 }
 
-.flexContainer{
-    display: flex;
-    flex-direction: row;
+.contenidoSobreRamon {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  display: flex;
 }
 
-@media (max-width:800px){
-    .flexContainer{
-        flex-direction: column;
-    }
-
+.parrafoSobreRamon {
+  color: black;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
 }
 
-.conteinerFooter{
-    display: flex;
+.sectionIndex {
+  box-sizing: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .flexContainer {
     flex-direction: column;
+  }
 }
+.conteinerFooter {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,161 @@
+@import 'variables.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+
+.subtitulosIndex{
+    color:$color-texto;
+    font-size:$fuente-grande;
+    margin: auto;
+    font-family: $tipografia-general; 
+    padding: 10px;
+}
+
+.titulosPrincipales{
+    color:$color-texto;
+    font-size: $fuente-grande;
+    text-align: center;
+    font-family: $tipografia-general;
+    font-weight: $grosor-grande;
+}
+
+.parrafosPrincipales{
+    color:$color-texto;
+    font-size: $fuente-pequena;
+    font-family:$tipografia-general;
+    font-weight: $grosor-mediano;
+}
+.header{
+    background-color: $color-secundario;
+    border: 1px $color-negro;
+}
+.navHeader{
+    color:$color-texto;
+    font-size: $fuente-normal;
+}
+
+.mainIndex{
+    background-color:$color-primario;
+    margin: 0%;
+}
+
+.fotosIndex{
+    height: 600px;
+    width: 800px;
+}
+
+.fotoHeader{
+    height: 600px;
+    width: 1000px; 
+}
+
+.contenidoGaleria{
+    height: 400px;
+    width: 439.19px;
+}
+
+.botonesTienda{
+    background-color: $color-secundario;
+}
+
+.footers{
+    background-color: $color-secundario;
+    font-size:$fuente-normal;
+    display: block;
+    position: static;
+    bottom: 0%;
+    font-family:$tipografia-general;
+    font-weight: $grosor-mediano;
+    text-align: center;
+    .conteinerFooter{
+        display: $contenedor-flex;
+        flex-direction:$contenedor-flex-columna;
+        .img{
+            width: 30px;
+            margin: 10px;
+            margin-top: 20px;
+            margin-bottom: 17px;
+         }
+        }
+    .menu .listaU .navHeader{
+        list-style: none;
+        display: inline-block;
+        margin-left: 15px;
+        .anclas{
+            text-decoration: none;
+            color: $color-texto;
+            font-family:$tipografia-general;
+            font-weight: $grosor-mediano;
+            font-size:$fuente-especial;
+        }
+    }
+}
+    
+
+
+
+.boxForm{
+    width: 400px;
+    background-color: #febeac;
+    padding: 30px;
+    margin: auto;
+    margin-top:20px;
+    font-size: $fuente-normal;
+    font-family:$tipografia-general;
+    font-weight: $grosor-pequeno;
+}
+
+.boxForm h2{
+    margin-bottom: 20px;
+    font-size:$fuente-pequena;
+}
+
+.controls{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.contenedorSobreRamon{
+    padding: 20px;
+    text-align: justify;
+    display: inline;
+}
+
+.contenidoSobreRamon{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    display:$contenedor-flex;
+}
+
+.parrafoSobreRamon{
+    color:$color-texto;
+    font-size:$fuente-normal;
+    font-family:$tipografia-general;
+    font-weight: 400;
+}
+
+.sectionIndex{
+    box-sizing:$fuente-grande;
+    display: $contenedor-flex;
+    justify-content: $contenedor-flex-centro ;
+}
+
+.flexContainer{
+    display: $contenedor-flex;
+    flex-direction: $contenedor-flex-fila;
+}
+
+@media (max-width:800px){
+    .flexContainer{
+    flex-direction:$contenedor-flex-columna;
+}
+}
