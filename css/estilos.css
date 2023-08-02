@@ -1,3 +1,4 @@
+@import 'animate.css';
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap");
 * {
   padding: 0;
@@ -29,7 +30,7 @@
 }
 
 .header {
-  background-color:linear-gradient(to right top, #96b5a6, #8cb096, #87a984, #85a270, #879a5c, #948f4f, #9f8447, #a87846, #ad6b57, #a5636a, #936178, #7b617f);;
+  background-color: #96B5A6;
   border: 1px black;
 }
 
@@ -53,31 +54,17 @@
   width: 1000px;
 }
 
-.menu .listaU .navHeader {
-  list-style: none;
-  display: inline-block;
-  margin-left: 15px;
-}
-
-.menu .listaU .navHeader .anclas {
-  text-decoration: none;
-  color: black;
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 1, 5rem;
-}
-
 .contenidoGaleria {
   height: 400px;
   width: 439.19px;
 }
 
 .botonesTienda {
-  background-color: #96b5a6;
+  background-color: #96B5A6;
 }
 
 .footers {
-  background-color: #96b5a6;
+  background-color: #96B5A6;
   font-size: 1rem;
   display: block;
   position: static;
@@ -86,12 +73,27 @@
   font-weight: 400;
   text-align: center;
 }
-
-.footers .img {
+.footers .conteinerFooter {
+  display: flex;
+  flex-direction: column;
+}
+.footers .conteinerFooter .img {
   width: 30px;
   margin: 10px;
   margin-top: 20px;
   margin-bottom: 17px;
+}
+.footers .menu .listaU .navHeader {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+.footers .menu .listaU .navHeader .anclas {
+  text-decoration: none;
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 1, 5rem;
 }
 
 .boxForm {
@@ -151,8 +153,4 @@
   .flexContainer {
     flex-direction: column;
   }
-}
-.conteinerFooter {
-  display: flex;
-  flex-direction: column;
 }/*# sourceMappingURL=estilos.css.map */
