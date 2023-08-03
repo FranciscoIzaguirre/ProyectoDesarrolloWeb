@@ -1,4 +1,13 @@
-
+@mixin footer{
+    background-color: $color-secundario;
+    font-size:$fuente-normal;
+    display: block;
+    position: static;
+    bottom: 0%;
+    font-family:$tipografia-general;
+    font-weight: $grosor-mediano;
+    text-align: center;
+    }
 
 @import 'variables.scss';
 
@@ -68,14 +77,7 @@
 }
 
 .footers{
-    background-color: $color-secundario;
-    font-size:$fuente-normal;
-    display: block;
-    position: static;
-    bottom: 0%;
-    font-family:$tipografia-general;
-    font-weight: $grosor-mediano;
-    text-align: center;
+   @include footer;
     .conteinerFooter{
         display: $contenedor-flex;
         flex-direction:$contenedor-flex-columna;
