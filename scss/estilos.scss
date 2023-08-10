@@ -2,8 +2,9 @@
     background-color: $color-secundario;
     font-size:$fuente-normal;
     display: block;
-    position: static;
+    position: fixed;
     bottom: 0%;
+    margin: 500px;
     font-family:$tipografia-general;
     font-weight: $grosor-mediano;
     text-align: center;
@@ -28,12 +29,20 @@
     padding: 10px;
 }
 
+.contenedorIndex{
+    width: 80%;
+    height: 80%;
+    margin: 0% auto;
+    padding: auto;
+}
+
 .titulosPrincipales{
     color:$color-texto;
     font-size: $fuente-grande;
     text-align: center;
     font-family: $tipografia-general;
     font-weight: $grosor-grande;
+    margin: 100px;
 }
 
 .parrafosPrincipales{
@@ -53,7 +62,8 @@
 
 .mainIndex{
     background-color:$color-primario;
-    margin: 0%;
+    margin: bottom 80px;
+    padding: bottom 80px;
 }
 
 .fotosIndex{
@@ -143,9 +153,9 @@
 
 .parrafoSobreRamon{
     color:$color-texto;
-    font-size:$fuente-normal;
+    font-size: $fuente-pequena;
     font-family:$tipografia-general;
-    font-weight: 400;
+    font-weight: $grosor-pequeno;
 }
 
 .sectionIndex{
@@ -164,3 +174,4 @@
     flex-direction:$contenedor-flex-columna;
 }
 }
+
