@@ -167,6 +167,8 @@
 .flexContainer{
     display: $contenedor-flex;
     flex-direction: $contenedor-flex-fila;
+    justify-content:$contenedor-flex-centro;
+    width: 100%;
 }
 
 @media (max-width:800px){
